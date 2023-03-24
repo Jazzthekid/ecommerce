@@ -1,0 +1,198 @@
+
+  nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .left-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .left-side li {
+    margin-right: 20px;
+  }
+  
+  .left-side li:last-child {
+    margin-right: 0;
+  }
+  
+  .left-side a {
+    text-decoration: none;
+    color: black
+    
+  }
+    
+  .left-side li a:hover {
+    background-color: #535353;
+    color: #fdfdfd;
+  }
+
+  
+  .center img {
+   
+    max-width: 50%;
+    height: auto;
+    
+  }
+  .center {
+    display: flex;
+    width: 30%;
+    align-items: center;
+  }
+  .center a{
+    display: flex;
+  }
+  .right-side form {
+    display: flex;
+  }
+  
+  .right-side input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .right-side button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .right-side a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  .right-side a i {
+    font-size: 18px;
+  }
+  
+  .hero{
+    background: url("./assests/eCommerceWebsiteAssets_GN_Starter-main/hero.jpg") no-repeat fixed center ;
+    min-height: 30rem;
+    min-width: 100%;
+    
+  }
+
+  .products{
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   
+  }
+  
+    
+h3{
+  font-size: 105%;
+  display: inline;
+}
+
+.hr-style1{
+  border:none;
+  border-top:3px solid black;
+  width: 50%;
+  margin: 1px;
+}
+
+.hr-style2{
+  border: none;
+  border-top: 3px solid black;
+  width: 60%;
+  margin: 2px;
+}
+.div-1{
+  background-color:  #bf7631; 
+  width: 100%;
+  height:3h;
+  display: flex;
+
+}
+
+.box {
+  border: thin solid black;
+  color: white;
+}
+
+.hero1 {
+  color: white;
+
+}
+
+.hero2 {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.image{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: thin solid black;
+
+}
+
+.more{
+  color:#bf7631;
+}
+
+.add{
+  border: thin solid #bf7631 ;
+  color: white;
+  background-color: #bf7631;
+  display: flex;
+}
+.left{
+  width:300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.sideleft{
+  width: 50%;
+  overflow: hidden;
+  
+}
+.side1{
+  width: 200px;
+  height: 450px;
+  float: left;
+  margin-right: 80px;
+}
+.side2{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 40px;
+  margin-right: 100px;
+
+}
+.sideright{
+  width: 50%;
+  overflow: hidden;
+  display:flex;
+  margin-left: 450px;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+
+.div2{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
